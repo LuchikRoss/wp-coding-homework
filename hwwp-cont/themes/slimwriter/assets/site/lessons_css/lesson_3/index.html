@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- веб-страница html, автор: rostyslavnaryzhniak -->   
+
+<head>
+    <meta http-equiv="Content-Type" charset="utf-8" />
+    <title>CSS Frontend Home Work Lesson 3</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!--<style>
+        h1 {
+                color: brown;
+            }
+
+            p{
+                color: darkgreen;
+            }
+    </style>  -->
+    
+</head> 
+    <body bgcolor="darkgray";
+<body>
+
+    <p style="color: black;">Есть 4 способа подключения стилей: в файле, урле (на внешне сайте), теге  html и в заголовке html-файла между тегами style, но предпочтительнее всего подключать только в файле. В стиле используются ислючительно строчные символы.
+    Приоритет у класса выше чем у обычного тега, id-приоритет выше чем у селектора или класса.
+    </p><br />
+    <table id="table-id" border="1" width="400px" cellpadding="5px">
+        
+        <tr><td><b>единица измерения</td><td><b>описание</td></tr> 
+        <td>em, rem</td><td>размер шрифта текущего элемента</td></tr> 
+        <tr><td>ex</td><td>высота символа х</td></tr> 
+        <tr><td>px</td><td>пиксел</td></tr>
+        <tr><td>%</td><td>процент</td></tr>
+
+    </table>
+
+    <br /><br />
+
+    <div><b><p>контекстный селектор:<br /> div b {font-size: 1.2em;}</p></b></div>
+    <p><b>контекстный селектор:<br /> p b {font-size: 130%;}</b></p>  
+    <p><i>дочерний селектор:<br /> p > i {color: darkslateblue;}</i></p>
+    <p><b> соседний селектор </b>
+        <i>(тег i у которого слева закрыт тег b): </i><br />
+            b + i {color: darkslateblue;}</p>
+    <div><p><b>универсальный селектор (все вложеные теги):<br />
+            p * b {color: darkslateblue;}</b></p></div>
+
+    <br /><br />
+    
+    <p><strong><h2>псевдоклассы состояния:</h2></strong>
+        <ul type="square">
+            <li><a class="link-class" href="http://google.com">
+                a:active (не нажатая ссылка)</a></li>
+            <li><a class="link-class" href="http://google.com">
+                a:link (состояние покоя)</a></li>
+            <li><a class="link-class" href="http://google.com">
+                a:hover (при наведении)</a></li>
+            <li><a class="link-class" href="http://google.com">
+                a:visited (посещённая)</a></li>
+            <li><a class="link-class" href="http://google.com">
+                input:focus</a></li>
+        </ul>
+    </p>
+
+    <div align="center">
+        <input type="text" class="text-input" style="padding: 5px 5px;">
+    </div>
+
+    <br /><br />
+
+    <p><strong><h2>псевдоклассы dom:</h2></strong>
+    <ul>
+        <li class="psevdo-ul-li">ul li:first-child{} первый элемент</li>
+        <li class="psevdo-ul-li">ul li:nth-child(2){} выбраный элемент</li>
+        <li class="psevdo-ul-li">ul li:last-child{} последний элемент</li>
+    </ul>
+
+    <br />
+
+    <p><strong><h2>псевдоэлементы:</h2></strong>
+
+    <p class="first-line">ожно присваивать стили первой букве или первой строчке любого текста с помощью псевдоэлементов: ':first-letter{}' и ':first-line{}', ':before{}' и ':after{}' предназначены для добавления и стилизации контента 
+    до или после основного.</p>
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+</body>
+</html>

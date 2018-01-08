@@ -1,0 +1,181 @@
+# Translation of SlimWriter in Chinese (China)
+# This file is distributed under the same license as the SlimWriter package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-07-20 15:43:02+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Project-Id-Version: SlimWriter\n"
+
+#. Theme Name of the plugin/theme
+msgid "SlimWriter"
+msgstr "SlimWriter"
+
+#. Description of the plugin/theme
+msgid "SlimWriter is designed to be a very slim and clean theme. It’s a very good choice for those who don’t need those fancy decorations and just want to write their articles in a clean and neat way."
+msgstr "SlimWriter是一个以简洁明快为设计目标的主题。它没有复杂的装饰，专注于内容的呈现。非常适合专注于内容的博客。"
+
+#: footer.php:4
+msgid "Themed by"
+msgstr "Themed by"
+
+#: footer.php:4
+msgid "SlimTheme.com"
+msgstr "SlimTheme.com"
+
+#: tag.php:3
+msgid "Tags &raquo; %s"
+msgstr "文章标签 &raquo; %s"
+
+#: footer.php:3
+msgid "Copyright"
+msgstr "Copyright"
+
+#: searchform.php:5
+msgid "Search"
+msgstr "搜索"
+
+#: page.php:9 single.php:9
+msgid "The content you're looking for does not exist."
+msgstr "您要找的内容不存在。"
+
+#: search.php:3
+msgid "Search &raquo; %s"
+msgstr "搜索 &raquo; %s"
+
+#: searchform.php:3
+msgid "Search for..."
+msgstr "搜索..."
+
+#: functions.php:377
+msgid "Your comment is awaiting moderation."
+msgstr "您的评论正等待审核。"
+
+#: functions.php:373
+msgid "Edit"
+msgstr "编辑"
+
+#: functions.php:372
+msgid "Reply"
+msgstr "回复"
+
+#: functions.php:357
+msgid "Pingback"
+msgstr "Pingback"
+
+#: functions.php:142
+msgid "Password"
+msgstr "密码"
+
+#: functions.php:141
+msgid "This content is password protected. To view it please enter your password below."
+msgstr "这篇文章已经被加密。输入密码才能查看文章内容。"
+
+#: functions.php:135 functions.php:144
+msgid "Submit"
+msgstr "提交"
+
+#: functions.php:110
+msgctxt "comment-form"
+msgid "Name"
+msgstr "姓名"
+
+#: functions.php:111
+msgctxt "comment-form"
+msgid "Email"
+msgstr "电子邮件"
+
+#: functions.php:112
+msgctxt "comment-form"
+msgid "Website"
+msgstr "个人网站"
+
+#: functions.php:112
+msgctxt "comment-form"
+msgid "http://"
+msgstr "http://"
+
+#: functions.php:135
+msgid "Your comment here..."
+msgstr "说点什么..."
+
+#: content.php:44
+msgid "Next Post"
+msgstr "下一篇文章"
+
+#: content.php:43
+msgid "Previous Post"
+msgstr "上一篇文章"
+
+#: content.php:37
+msgid "Tags"
+msgstr "标签"
+
+#: content.php:34
+msgid "Categories"
+msgstr "分类目录"
+
+#: content.php:23
+msgid "Comments off"
+msgstr "评论关闭"
+
+#: content.php:21
+msgid "% comments"
+msgstr "%条评论"
+
+#: content.php:20
+msgid "One comment"
+msgstr "1 评论"
+
+#: content-page.php:22 content.php:30
+msgid "Pages:"
+msgstr "页面："
+
+#: comments.php:53
+msgid "Join the discussion"
+msgstr "加入讨论"
+
+#: comments.php:46 content.php:19
+msgid "No comments"
+msgstr "没有评论"
+
+#: comments.php:43
+msgid "Comments are closed."
+msgstr "评论已关闭。"
+
+#: comments.php:16
+msgid "Discussions"
+msgstr "讨论"
+
+#: comments.php:3
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "这篇文章受密码保护。输入密码以查看评论。"
+
+#: category.php:3
+msgid "Categories &raquo; %s"
+msgstr "文章分类 &raquo; %s"
+
+#: category.php:19 index.php:11 search.php:19 tag.php:19
+msgctxt "post navigation"
+msgid "Older Posts"
+msgstr "上一页"
+
+#: category.php:20 index.php:12 search.php:20 tag.php:20
+msgctxt "post navigation"
+msgid "Newer Posts"
+msgstr "下一页"
+
+#. Theme URI of the plugin/theme
+msgid "http://www.slimtheme.com/slimwriter/"
+msgstr "http://www.slimtheme.com/slimwriter/"
+
+#. Author of the plugin/theme
+msgid "Duan Zhiyan"
+msgstr "段志岩"
+
+#. Author URI of the plugin/theme
+msgid "http://zhiyan.de"
+msgstr "http://zhiyan.de"

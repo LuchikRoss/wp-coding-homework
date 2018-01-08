@@ -1,0 +1,506 @@
+# Translation of Plugins - WP Maintenance Mode - Development (trunk) in Chinese (Taiwan)
+# This file is distributed under the same license as the Plugins - WP Maintenance Mode - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-05-23 15:13:49+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: zh_TW\n"
+"Project-Id-Version: Plugins - WP Maintenance Mode - Development (trunk)\n"
+
+#: views/promo-strictthemes.php:8
+msgid "See our WordPress Themes!"
+msgstr "參閱我們的 WordPress 主題！"
+
+#: views/promo-strictthemes.php:4
+msgid "We hope you like the WP Maintenance Mode plugin! Now you can buy WordPress Themes directly from us on ThemeForest. We're StrictThemes and we create best designed and coded WordPress Themes."
+msgstr "我們希望您喜歡 WP 維護模式 外掛！現在您可以在 ThemeFores 直接購買我們的 WordPress 主題。我們是 StrictThemes 而且我們創造最好的設計與 WordPress 主體編碼。"
+
+#: views/promo-strictthemes.php:1
+msgid "Premium WordPress Themes from WP Maintenance Mode authors!"
+msgstr "進階版 WordPress 主題來自於 WP 維護模式作者！"
+
+#: views/settings.php:425
+msgid "Allowed formats: UA-XXXXXXXX, UA-XXXXXXXX-XXXX. Eg: UA-12345678-1 is valid"
+msgstr "允許格式：UA-XXXXXXXX, UA-XXXXXXXX-XXXX. 例如： UA-12345678-1 同樣有效"
+
+#: includes/classes/wp-maintenance-mode-admin.php:196
+#: includes/classes/wp-maintenance-mode-admin.php:250
+msgid "Security check."
+msgstr "安全檢查。"
+
+#: includes/classes/wp-maintenance-mode-admin.php:186
+msgid "The nonce field must not be empty."
+msgstr "暫時欄位不可為空白。"
+
+#: includes/classes/wp-maintenance-mode-admin.php:540
+msgid "If you like <strong>WP Maintenance Mode</strong> please leave us a %s rating. A huge thank you from WP Maintenance Mode makers in advance!"
+msgstr "如果您喜歡 <strong>WP 維護模式</strong> 請留下對我們的 %s 評分。 WP 維護模式設計者預先給您大大的感謝！"
+
+#: views/sidebar.php:27
+msgid "Other products"
+msgstr "其他產品"
+
+#: views/settings.php:301
+msgid "Empty subscribers list"
+msgstr "清空訂閱者清單"
+
+#: views/settings.php:86
+msgid "If you want to redirect a user (with no access to Dashboard/Backend) to a URL (different from WordPress Dashboard URL) after login, then define a URL (incl. http://)"
+msgstr "如果您想要在登入後重新導向使用者（未存取控制台／後端）連結（與 WordPress 控制台連結不同），請自訂連結（例如： http:// ）"
+
+#: views/settings.php:69
+msgid "Which user role is allowed to access the frontend of this blog? Administrators will always have access."
+msgstr "何種使用者角色允許存取該部落格前端？管理員永遠有存取權。"
+
+#: views/settings.php:53
+msgid "Which user role is allowed to access the backend of this blog? Administrators will always have access."
+msgstr "何種使用者角色允許存取該部落格後端？管理員永遠有存取權。"
+
+#: views/settings.php:43 views/settings.php:59
+msgid "Select role(s)"
+msgstr "選擇角色"
+
+#: views/maintenance.php:88 views/maintenance.php:89 views/maintenance.php:94
+msgid "This field is required."
+msgstr "這是必要欄位。"
+
+#: views/contact.php:79
+msgid "Content:"
+msgstr "聯絡："
+
+#: views/contact.php:64
+msgid "Email:"
+msgstr "電子信箱："
+
+#: views/contact.php:52
+msgid "Name:"
+msgstr "名稱："
+
+#: views/contact.php:34
+msgid "You have been contacted via %s."
+msgstr "您已透過 %s 聯絡。"
+
+#: includes/classes/wp-maintenance-mode-admin.php:492
+msgid "Notice key cannot be empty."
+msgstr "通知金鑰不可為空白。"
+
+#: includes/classes/wp-maintenance-mode-admin.php:202
+msgid "The tab slug must exist."
+msgstr "分頁動態資料欄位必須存在。"
+
+#: includes/classes/wp-maintenance-mode-admin.php:191
+msgid "The tab slug must not be empty."
+msgstr "分頁動態資料欄位不可為空白。"
+
+#: includes/classes/wp-maintenance-mode-admin.php:121
+#: includes/classes/wp-maintenance-mode-admin.php:159
+#: includes/classes/wp-maintenance-mode-admin.php:181
+msgid "You do not have access to this resource."
+msgstr "您沒有此資源的存取權限。"
+
+#. Author of the plugin/theme
+msgid "Designmodo"
+msgstr "Designmodo"
+
+#. Description of the plugin/theme
+msgid "Adds a splash page to your site that lets visitors know your site is down for maintenance. It's perfect for a coming soon page."
+msgstr "新增開頭顯示畫面頁至您的站台，使瀏覽者了解您的站台因維護而關閉。這會是完美的即將推出頁。"
+
+#. #-#-#-#-#  tmp-wp-maintenance-mode.pot (WP Maintenance Mode 2.0.9) 
+#. #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  tmp-wp-maintenance-mode.pot (WP Maintenance Mode 2.0.9) 
+#. #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://designmodo.com/"
+msgstr "http://designmodo.com/"
+
+#: views/sidebar.php:48
+msgid "Resources"
+msgstr "資源"
+
+#: views/sidebar.php:16
+msgid "GitHub"
+msgstr "GitHub"
+
+#: views/sidebar.php:15
+msgid "Twitter"
+msgstr "推特"
+
+#: views/sidebar.php:14
+msgid "Website"
+msgstr "網站"
+
+#: views/sidebar.php:13
+msgid "Author"
+msgstr "作者"
+
+#: views/sidebar.php:3
+msgid "Plugin Info"
+msgstr "外掛資訊"
+
+#: views/settings.php:422
+msgid "Tracking code"
+msgstr "追蹤代碼"
+
+#: views/settings.php:413
+msgid "Use Google Analytics?"
+msgstr "使用 Google Analytics （分析）？"
+
+#: views/settings.php:408
+msgid "Google Analytics"
+msgstr "Google Analytics （分析）"
+
+#: views/settings.php:401
+msgid "Fold - Unfold"
+msgstr "摺疊 - 展開"
+
+#: views/settings.php:400
+msgid "Zoom - Zoomed"
+msgstr "放大 - 已放大"
+
+#: views/settings.php:399
+msgid "Move top - Move bottom"
+msgstr "移至頂端 - 移至底端"
+
+#: views/settings.php:396
+msgid "Effects"
+msgstr "效果"
+
+#: views/settings.php:390
+msgid "Email address"
+msgstr "電子信箱地址"
+
+#: views/settings.php:381
+msgid "Show contact?"
+msgstr "顯示聯絡？"
+
+#: views/settings.php:376
+msgid "Contact"
+msgstr "聯絡"
+
+#: views/settings.php:328
+msgid "Choose how the links will open."
+msgstr "選擇連結開啟方式。"
+
+#: views/settings.php:326
+msgid "Same page"
+msgstr "相同網頁"
+
+#: views/settings.php:325
+msgid "New page"
+msgstr "開新網頁"
+
+#: views/settings.php:322
+msgid "Links target?"
+msgstr "目標連結？"
+
+#: views/settings.php:313
+msgid "Show social networks?"
+msgstr "顯示社群網路？"
+
+#: views/settings.php:308
+msgid "Social Networks"
+msgstr "社群網路"
+
+#: views/settings.php:300
+msgid "Export as CSV"
+msgstr "以 CSV 匯出"
+
+#: includes/classes/wp-maintenance-mode-admin.php:165 views/settings.php:295
+msgid "You have %d subscriber(s)"
+msgstr "您已有 %d 訂閱者"
+
+#: views/settings.php:291
+msgid "Stats"
+msgstr "統計"
+
+#: views/settings.php:275
+msgid "Show subscribe?"
+msgstr "顯示訂閱？"
+
+#: views/settings.php:262
+msgid "Color"
+msgstr "色彩"
+
+#: views/settings.php:258
+msgid "Minutes"
+msgstr "分"
+
+#: views/settings.php:257
+msgid "Hours"
+msgstr "時"
+
+#: views/settings.php:256
+msgid "Days"
+msgstr "天"
+
+#: views/settings.php:254
+msgid "Countdown (remaining time)"
+msgstr "倒數計時（剩餘時間）"
+
+#: views/settings.php:248
+msgid "Start date"
+msgstr "開始日期"
+
+#: views/settings.php:239
+msgid "Show countdown?"
+msgstr "顯示倒數計時？"
+
+#: views/settings.php:234
+msgid "Countdown"
+msgstr "倒數計時"
+
+#: views/settings.php:201
+msgid "source <a href=\"%s\" target=\"_blank\">Free Photos</a>"
+msgstr "來源 <a href=\"%s\" target=\"_blank\">免費相片</a>"
+
+#: views/settings.php:199
+msgid "Choose background"
+msgstr "選擇背景"
+
+#: views/settings.php:194
+msgid "Backgrounds should have 1920x1280 px size."
+msgstr "背景至少要有 1920x1280 px 大小。"
+
+#: views/settings.php:190
+msgid "Upload background"
+msgstr "上傳背景"
+
+#: views/settings.php:184
+msgid "Choose color"
+msgstr "選擇色彩"
+
+#: views/settings.php:179
+msgid "Predefined background"
+msgstr "預先定義背景"
+
+#: views/settings.php:178
+msgid "Uploaded background"
+msgstr "已上傳背景"
+
+#: views/settings.php:177
+msgid "Custom color"
+msgstr "自訂色彩"
+
+#: views/settings.php:174
+msgid "Choose type"
+msgstr "選擇類型"
+
+#: views/settings.php:169
+msgid "Background"
+msgstr "背景"
+
+#: views/settings.php:149 views/settings.php:284
+msgid "Text"
+msgstr "文字"
+
+#: views/settings.php:142
+msgid "Heading"
+msgstr "標題"
+
+#: views/settings.php:136
+msgid "Title (HTML tag)"
+msgstr "標題（HTML 標籤）"
+
+#: views/settings.php:131
+msgid "Content"
+msgstr "聯絡"
+
+#: views/settings.php:126 views/settings.php:229 views/settings.php:434
+msgid "Reset settings"
+msgstr "重新設定"
+
+#: views/settings.php:125 views/settings.php:228 views/settings.php:433
+msgid "Save settings"
+msgstr "儲存設定"
+
+#: views/settings.php:117
+msgid "Do you want to add a link to the dashboard on your maintenance mode page?"
+msgstr "您想要在您的維護模式頁中增加控制台的連結？"
+
+#: views/settings.php:111
+msgid "Dashboard link"
+msgstr "控制台連結"
+
+#: views/settings.php:107
+msgid "Do you want to see notices when maintenance mode is activated?"
+msgstr "維護模式啟動時您需要檢視通知？"
+
+#: views/settings.php:101
+msgid "Notice"
+msgstr "通知"
+
+#: views/settings.php:97
+msgid "Exclude feed, pages, archives or IPs from maintenance mode. Add one slug / IP per line!"
+msgstr "排除來自於維護模式中的摘要、頁面、彙整或 IP 。以每行新增動態資料欄位／ IP ！"
+
+#: views/settings.php:90
+msgid "Exclude"
+msgstr "排除"
+
+#: views/settings.php:83
+msgid "Redirection"
+msgstr "重新導向"
+
+#: views/settings.php:79
+msgid "The robots meta tag lets you use a granular, page-specific approach to control how an individual page should be indexed and served to users in search results."
+msgstr "網路爬蟲中繼標籤允許您使用細微、特定頁的方法控制個別的頁以索引與多個使用者的搜尋結果。"
+
+#: views/settings.php:73
+msgid "Robots Meta Tag"
+msgstr "網路爬蟲中繼標籤"
+
+#: views/settings.php:57
+msgid "Frontend Role"
+msgstr "前端角色"
+
+#: views/settings.php:41
+msgid "Backend Role"
+msgstr "後端角色"
+
+#: views/settings.php:37
+msgid "Allow Search Bots to bypass maintenance mode?"
+msgstr "允許搜尋聊天機器人繞過維護模式？"
+
+#: views/settings.php:35 views/settings.php:105 views/settings.php:115
+#: views/settings.php:243 views/settings.php:279 views/settings.php:317
+#: views/settings.php:385 views/settings.php:417
+msgid "No"
+msgstr "否"
+
+#: views/settings.php:34 views/settings.php:104 views/settings.php:114
+#: views/settings.php:242 views/settings.php:278 views/settings.php:316
+#: views/settings.php:384 views/settings.php:416
+msgid "Yes"
+msgstr "是"
+
+#: views/settings.php:31
+msgid "Bypass for Search Bots"
+msgstr "搜尋繞過聊天機器人"
+
+#: views/settings.php:27
+msgid "Deactivated"
+msgstr "已停用"
+
+#: views/settings.php:26
+msgid "Activated"
+msgstr "已啟用"
+
+#: views/settings.php:24
+msgid "Status"
+msgstr "狀態"
+
+#: views/settings.php:15
+msgid "Modules"
+msgstr "模組"
+
+#: views/settings.php:14
+msgid "Design"
+msgstr "設計"
+
+#: views/settings.php:13
+msgid "General"
+msgstr "一般"
+
+#: views/settings.php:6
+msgid "Settings saved."
+msgstr "設定已儲存。"
+
+#: views/maintenance.php:110
+msgid "Dashboard"
+msgstr "控制台"
+
+#: views/maintenance.php:105
+msgid "Contact us"
+msgstr "聯絡我們"
+
+#: views/maintenance.php:98
+msgid "Send"
+msgstr "傳送"
+
+#: views/maintenance.php:94
+msgid "Your message"
+msgstr "您的訊息"
+
+#: views/maintenance.php:89
+msgid "E-mail"
+msgstr "電子郵件"
+
+#: views/maintenance.php:88 views/sidebar.php:7
+msgid "Name"
+msgstr "名字"
+
+#: views/maintenance.php:45 views/settings.php:270
+msgid "Subscribe"
+msgstr "訂閱"
+
+#: views/maintenance.php:44
+msgid "your e-mail..."
+msgstr "您的電子郵件…"
+
+#: views/loginform.php:8
+msgid "Login"
+msgstr "登入"
+
+#: includes/classes/wp-maintenance-mode.php:786
+msgid "Your email was sent to the website administrator. Thanks!"
+msgstr "您的電子郵件已傳送至網站管理員。謝了！"
+
+#: includes/classes/wp-maintenance-mode.php:772
+msgid "Message via contact"
+msgstr "透過連絡傳送訊息"
+
+#: includes/classes/wp-maintenance-mode.php:760
+msgid "All fields required."
+msgstr "必填所有欄位。"
+
+#: includes/classes/wp-maintenance-mode.php:742
+msgid "You successfully subscribed. Thanks!"
+msgstr "您已成功訂閱。謝了！"
+
+#: includes/classes/wp-maintenance-mode.php:730
+#: includes/classes/wp-maintenance-mode.php:764 views/maintenance.php:89
+msgid "Please enter a valid email address."
+msgstr "請輸入有效的電子郵件地址。"
+
+#: includes/classes/wp-maintenance-mode.php:463
+#: includes/classes/wp-maintenance-mode.php:477
+msgid "Maintenance Mode"
+msgstr "維護模式"
+
+#: includes/classes/wp-maintenance-mode.php:261
+msgid "WP Maintenance Mode plugin was relaunched and you MUST revise <a href=\"%s\">settings</a>."
+msgstr "WP 維護模式外掛已重新變更，您必須確認 <a href=\"%s\">設定</a>。"
+
+#: includes/classes/wp-maintenance-mode.php:122
+msgid "Notify me when it's ready"
+msgstr "準備完成時通知我"
+
+#: includes/classes/wp-maintenance-mode.php:104
+msgid "<p>Sorry for the inconvenience.<br />Our website is currently undergoing scheduled maintenance.<br />Thank you for your understanding.</p>"
+msgstr "<p>抱歉造成您的不便。<br />我們的網站目前正在例行性維護中。<br />敬請見諒。</p>"
+
+#: includes/classes/wp-maintenance-mode.php:101
+#: includes/classes/wp-maintenance-mode.php:102
+msgid "Maintenance mode"
+msgstr "維護模式"
+
+#: includes/classes/wp-maintenance-mode-admin.php:455
+msgid "The Maintenance Mode is <strong>active</strong>. Please don't forget to <a href=\"%s\">deactivate</a> as soon as you are done."
+msgstr "維護模式目前<strong>已啟動</strong>。請在完成後別忘記 <a href=\"%s\">停用</a> 。"
+
+#: includes/classes/wp-maintenance-mode-admin.php:436
+msgid "Settings"
+msgstr "設定"
+
+#. #-#-#-#-#  tmp-wp-maintenance-mode.pot (WP Maintenance Mode 2.0.9) 
+#. #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: includes/classes/wp-maintenance-mode-admin.php:222
+msgid "WP Maintenance Mode"
+msgstr "WP 維護模式"

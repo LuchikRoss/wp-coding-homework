@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans|Titillium+Web&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display');
+
+@font-face {
+    font-family: LTYPE-homework;
+    src: url('../fonts/LTYPE.ttf') 
+}
+
+body {
+    background: #dddddd;
+    font-size: 20px;
+    background: url('../images/85956.jpg');
+    background-size: cover; 
+}
+
+h1 {   
+    font-family: LTYPE-homework;
+    font-style: normal;
+    color: rgb(50, 50, 50);
+    text-align: center;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4074a4+24,629cc2+66,629cc2+66,4074a4+81&0+0,0.8+15,1+35,1+73,0.8+87,0+100 */
+    background: -moz-linear-gradient(-45deg, rgba(64,116,164,0) 0%, rgba(64,116,164,0.8) 15%, rgba(64,116,164,0.89) 24%, rgba(73,126,172,1) 35%, rgba(98,156,194,1) 66%, rgba(82,137,180,1) 73%, rgba(64,116,164,0.89) 81%, rgba(64,116,164,0.8) 87%, rgba(64,116,164,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(64,116,164,0) 0%,rgba(64,116,164,0.8) 15%,rgba(64,116,164,0.89) 24%,rgba(73,126,172,1) 35%,rgba(98,156,194,1) 66%,rgba(82,137,180,1) 73%,rgba(64,116,164,0.89) 81%,rgba(64,116,164,0.8) 87%,rgba(64,116,164,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(64,116,164,0) 0%,rgba(64,116,164,0.8) 15%,rgba(64,116,164,0.89) 24%,rgba(73,126,172,1) 35%,rgba(98,156,194,1) 66%,rgba(82,137,180,1) 73%,rgba(64,116,164,0.89) 81%,rgba(64,116,164,0.8) 87%,rgba(64,116,164,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004074a4', endColorstr='#004074a4',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+#font-style {
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: normal;
+    font-size: 25px;
+    text-align: left;
+}
+
+#font-style-2 {
+        font-family: 'Titillium Web';
+    text-decoration: underline;
+    text-indent: 25px;
+    text-transform: capitalize;
+}
+
+#font-style-3 {
+    font-family: 'Titillium Web';
+    white-space: nowrap;
+    word-spacing: 20px;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+
+#font-style-4 {
+font-family: 'Sedgwick Ave Display', cursive;
+}
+
+#fon-style-21 {
+background: linear-gradient(to top, #554466, #334488);
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e9a85+20,2ad8ac+60,1e9a85+80&0+0,0.8+15,1+29,1+73,0.8+89,0+100 */
+background: -moz-linear-gradient(-45deg, rgba(30,154,133,0) 0%, rgba(30,154,133,0.8) 15%, rgba(30,154,133,0.87) 20%, rgba(33,168,142,1) 29%, rgba(42,216,172,1) 60%, rgba(34,176,147,1) 73%, rgba(30,154,133,0.91) 80%, rgba(30,154,133,0.8) 89%, rgba(30,154,133,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgba(30,154,133,0) 0%,rgba(30,154,133,0.8) 15%,rgba(30,154,133,0.87) 20%,rgba(33,168,142,1) 29%,rgba(42,216,172,1) 60%,rgba(34,176,147,1) 73%,rgba(30,154,133,0.91) 80%,rgba(30,154,133,0.8) 89%,rgba(30,154,133,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgba(30,154,133,0) 0%,rgba(30,154,133,0.8) 15%,rgba(30,154,133,0.87) 20%,rgba(33,168,142,1) 29%,rgba(42,216,172,1) 60%,rgba(34,176,147,1) 73%,rgba(30,154,133,0.91) 80%,rgba(30,154,133,0.8) 89%,rgba(30,154,133,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e9a85', endColorstr='#001e9a85',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */    
+}
+
+#fon-style-22 {
+    margin: auto;
+    width: 800px;
+    height: 400px;
+    background-image: url('../images/stock.jpg');
+    background-size: cover;
+    text-align: center;
+    font-size: 22px;
+    opacity: 0.9;
+}
+
+#fon-style-23 {
+    background-image: url('../images/icon.png');
+    background-position: 0px 5px;
+    background-repeat: no-repeat;
+    padding-left: 65px;
+    background-size: contain;
+    font-size: 50px;
+}

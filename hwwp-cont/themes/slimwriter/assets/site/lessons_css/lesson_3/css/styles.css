@@ -1,0 +1,109 @@
+body {
+    background: #dddddd;
+    font-size: 20px;
+    background: url('../images/85956.jpg');
+    background-size: cover; 
+    
+}
+
+*{
+    font: arial, verdana;
+}
+
+p {
+    font-weight: 700;
+    color: darkgreen;
+    line-height: 2;
+    font-size: 1.2rem;
+    padding: 0px 120px;
+}
+
+table {
+    border-style: dashed;
+    background-color : rgba(249, 201, 16, 0.2);
+    text-align: center; 
+    margin-left: 120px;
+    padding: 8px;
+}
+
+
+#table-id {
+    font-size: 1.1rem;
+}
+
+div b { /* контекстный селектор */
+    font-size: 1.2em;
+    color: darkgreen;
+}
+
+p b { 
+    font-size: 130%;
+}
+
+p > i { /* дочерний селектор */
+    color: darkslateblue;
+    font-size: 120%;
+}
+
+b + i { /* соседний селектор */
+    color: darkslateblue;
+}
+
+div p *{
+    color: darkslateblue;
+}
+
+h2 {text-align: center;}
+
+ul {
+    padding: 10px 150px;
+    font-size: 120%;
+    color: darkgreen;
+}
+
+.link-class {
+    font-size: 22px;
+    color: darkgreen;
+}
+
+.link-class:hover {
+    color: darkblue;
+}
+
+.link-class:active{
+     color: green;
+     font-size: 1.1em;
+}
+
+.text-input:focus{
+    color: crimson;
+}
+
+.psevdo-ul-li:first-child{
+    color: darkslateblue;
+}
+
+.psevdo-ul-li:last-child{
+    color: darkslateblue;
+}
+
+.psevdo-ul-li:nth-child(2){
+    color: darkgreen;
+}
+
+.first-line:first-letter{
+    font-size: 40px;
+    color: darkgreen;
+}
+
+.first-line:first-line{
+    color: black;
+}
+
+.first-line:before{
+    content: 'M';
+}
+
+h1, h2, h3 {
+    font-family: helvetica, verdana;
+}

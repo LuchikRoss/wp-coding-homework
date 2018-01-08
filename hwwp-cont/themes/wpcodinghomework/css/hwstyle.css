@@ -1,0 +1,123 @@
+body {
+ font-family: MS Reference Sans Serif;
+ background-color: #9cb2d6;
+}
+
+a:link {
+	color: #323232;
+}
+
+a:visited {
+	color: #4C4C4C;
+}
+
+.pane.concavebox{
+	background-color: black;
+	margin: 0;
+	padding-bottom: 0;
+}
+
+.concavebox{
+	padding-top: 0px;
+}
+
+#nav {
+	height: 0px;
+}
+
+.pane-title{
+	height: 0px;
+	font-size: 20px;
+	padding: 20px;
+}
+
+.entry-header p.byline{
+	color: black;
+}
+
+#branding {
+	background-color: #961b51;
+}
+
+.entry-header{
+	background-color: Cornsilk;
+}
+
+h1{
+	color: black;
+	text-align: center;
+	font-weight: bold;
+}
+
+h1, h2, h3 ,h4, h5, p {
+	font-family: MS Reference Sans Serif;
+}
+
+.entry {
+	background-color: Cornsilk;
+	padding: 5;	
+}
+
+.entry-footer {
+	background-color: LightSteelBlue;
+}
+
+.alm-btn-wrap{
+	height: 85px;
+}
+
+.pager {	
+	padding: 5px;
+	margin:  5px;
+	padding-bottom: 18px;
+}
+
+.comment-reply-title{
+	height: 40px;
+	text-align: center;
+	color: lightgreen;
+}
+
+#comments{
+	background-color: LightCyan;
+}
+
+.col-sm-10{
+	padding-bottom: 10px;
+}
+
+.form-group{
+	padding-bottom: 0px;
+	margin: 0px; 
+}
+
+#wrap{
+	background-color: gray;
+}
+
+.row{
+	background-color: black;
+}
+
+#footer {
+ background-color: 	#2B1E0B;	
+}
+
+.widget_nav_menu a{
+	color: gray;
+	  }
+
+#reply-title {
+	height: 20px;
+}
+
+.copyright {
+	height: 1px;
+	color: #9C6D27;
+	font-size: 12px;
+}
+
+.size-alm-thumbnail{
+	padding: 20px;
+
+}

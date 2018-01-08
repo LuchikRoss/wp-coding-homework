@@ -1,0 +1,178 @@
+# Translation of Themes - SlimWriter in Japanese
+# This file is distributed under the same license as the Themes - SlimWriter package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-07-14 11:17:24+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Themes - SlimWriter\n"
+
+#. Theme Name of the plugin/theme
+msgid "SlimWriter"
+msgstr "SlimWriter"
+
+#: tag.php:3
+msgid "Tags &raquo; %s"
+msgstr "タグ &raquo; %s"
+
+#: footer.php:4
+msgid "SlimTheme.com"
+msgstr "SlimTheme.com"
+
+#: footer.php:4
+msgid "Themed by"
+msgstr "Themed by"
+
+#: footer.php:3
+msgid "Copyright"
+msgstr "Copyright"
+
+#: searchform.php:3
+msgid "Search for..."
+msgstr "検索..."
+
+#: search.php:3
+msgid "Search &raquo; %s"
+msgstr "検索 &raquo; %s"
+
+#: page.php:9 single.php:9
+msgid "The content you're looking for does not exist."
+msgstr "お探しのコンテンツは存在しません。"
+
+#: searchform.php:5
+msgid "Search"
+msgstr "検索"
+
+#: functions.php:377
+msgid "Your comment is awaiting moderation."
+msgstr "あなたのコメントは承認待ちです。"
+
+#: functions.php:373
+msgid "Edit"
+msgstr "編集"
+
+#: functions.php:372
+msgid "Reply"
+msgstr "返信"
+
+#: functions.php:357
+msgid "Pingback"
+msgstr "ピンバック"
+
+#: functions.php:141
+msgid "This content is password protected. To view it please enter your password below."
+msgstr "このコンテンツはパスワードで保護されています。表示するには、以下にパスワードを入力してください。"
+
+#: functions.php:142
+msgid "Password"
+msgstr "パスワード"
+
+#: functions.php:110
+msgctxt "comment-form"
+msgid "Name"
+msgstr "名前"
+
+#: functions.php:111
+msgctxt "comment-form"
+msgid "Email"
+msgstr "メール"
+
+#: functions.php:112
+msgctxt "comment-form"
+msgid "http://"
+msgstr "http://"
+
+#: functions.php:112
+msgctxt "comment-form"
+msgid "Website"
+msgstr "ウェブサイト"
+
+#: functions.php:135 functions.php:144
+msgid "Submit"
+msgstr "送信"
+
+#: functions.php:135
+msgid "Your comment here..."
+msgstr "コメントはこちら..."
+
+#: content.php:44
+msgid "Next Post"
+msgstr "次の投稿へ"
+
+#: content.php:43
+msgid "Previous Post"
+msgstr "過去の投稿へ"
+
+#: content.php:37
+msgid "Tags"
+msgstr "タグ"
+
+#: content.php:34
+msgid "Categories"
+msgstr "カテゴリー"
+
+#: content.php:23
+msgid "Comments off"
+msgstr "コメントは受け付けていません。"
+
+#: content.php:21
+msgid "% comments"
+msgstr "%件のコメント"
+
+#: content.php:20
+msgid "One comment"
+msgstr "コメント"
+
+#: content-page.php:22 content.php:30
+msgid "Pages:"
+msgstr "ページ:"
+
+#: comments.php:53
+msgid "Join the discussion"
+msgstr "ディスカッションに参加する"
+
+#: comments.php:46 content.php:19
+msgid "No comments"
+msgstr "コメントはまだありません"
+
+#: comments.php:43
+msgid "Comments are closed."
+msgstr "コメントは受け付けていません。"
+
+#: comments.php:16
+msgid "Discussions"
+msgstr "ディスカッション"
+
+#: comments.php:3
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "この投稿はパスワードで保護されています。コメントを表示するにはパスワードを入力してください。"
+
+#: category.php:20 index.php:12 search.php:20 tag.php:20
+msgctxt "post navigation"
+msgid "Newer Posts"
+msgstr "新しい記事"
+
+#: category.php:19 index.php:11 search.php:19 tag.php:19
+msgctxt "post navigation"
+msgid "Older Posts"
+msgstr "以前の記事"
+
+#: category.php:3
+msgid "Categories &raquo; %s"
+msgstr "カテゴリー &raquo; %s"
+
+#. Theme URI of the plugin/theme
+msgid "http://www.slimtheme.com/slimwriter/"
+msgstr "http://www.slimtheme.com/slimwriter/"
+
+#. Author URI of the plugin/theme
+msgid "http://zhiyan.de"
+msgstr "http://zhiyan.de"
+
+#. Author of the plugin/theme
+msgid "Duan Zhiyan"
+msgstr "Duan Zhiyan"
