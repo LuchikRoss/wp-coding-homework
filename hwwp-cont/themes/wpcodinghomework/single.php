@@ -1,5 +1,9 @@
 <?php get_header();?>
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> aae5663cf8f13adaed83fbdad5e69700833b63cb
 <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 
 <?php get_template_part('content', 'post'); ?>

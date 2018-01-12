@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!-- веб-страница html, автор: rostyslavnaryzhniak -->   
+
+<head>
+    <meta http-equiv="Content-Type" charset="utf-8" />
+    <title>CSS Frontend Home Work Lesson 4</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body bgcolor="darkgray";
+      
+<body>
+    
+    
+    <div class="block">
+        <h1 align="center">Блочная модель</h1>
+        <p>Ширина блока включает внутренний отступ (padding) и не включает внешний отступ (margin).
+
+        Отступы записываются начиная сверху по часовой стрелке (4 значения), и сверху-снизу слева-справа (если два значения),
+        например, margin: 10px 20px (это внешний оступ сверху-снизу 10, и слева справа 20.
+
+        три значения говорят о том, что отступ должен быть на первое значение: сверху, второе значение: слева-справа, и третье значение: снизу.
+        </p>
+        <p align="center">
+         толщина границы border-width: 3px; <br />
+         стиль границы border-style: solid; <br />
+         цвет границы border-top-color: black; <br />
+         толщина нижней границы border-bottom-width: 5px; <br />
+         стиль левой границы border-left-style: dashed; <br />
+         стиль нижней границы border-bottom-style: dotted; <br />
+        </p>
+        <p align="center">
+         ширина блока width: 300px; <br />
+         высота блока height: 400px; <br />  
+         размер блока определяется границей box-sizing: border-box; <br /> 
+         размер блока определяется контентом box-sizing: content; <br />   
+        </p>
+        <p align="center" id="overflow">
+         (в зависимости от контента) <br /> 
+         максимальная высота блока max-height: 100px; <br />  
+         максимальная ширина блока max-width: 600px; <br /> 
+         минимальная высота блока min-height: 200px; <br />  
+         минимальная ширина блока min-width: 300px; <br /> 
+         скрыть контент overflow: hidden; <br /> 
+         скролить скрытый контент overflow: scroll; <br /> 
+         автоопределение скролла контента overflow: auto; <br /> 
+         скролл может быть только по вертикали overflow-y: scroll; <br />
+         скролл может быть только по горизонтали overflow-x: scroll; <br />
+         расстояние между границами ячеек border-spacing: 20px;
+        </p>
+    </div>
+
+    <div class="wrapper clearfix">
+        <div class="left">
+            <h2>Обтекаемая левая колонка</h2>
+            <p>margin: 50px auto;<br />
+               width: 50%; <br />
+               float: left;
+            </p>      
+        </div>     
+        <div class="right">
+            <h2>Обтекаемая правая колонка</h2>
+            <p>margin: 50px auto;<br />
+                width: 50%; <br />
+                float: right;
+            </p>
+        </div> 
+        <div align="center"><br />
+            для того, чтобы корректно определялась высота блоков
+            после float можно убрать обтекание с обоих сторон (очистить поток) с помощью пустого блока div.clear {clear: both;}
+        </div>  
+        <div class="clear"></div> 
+    </div>
+
+    <h2 align="center">корректный способ сброса обтекания называется 'clearfix', например:</h2>
+    <div id="divclearfix">
+        class='wrapper clearfix'<br />
+        .clearfix:after { <br />
+        content: ""; <br />
+        clear: both; <br />
+        }
+    </div>
+
+    <div class="table">
+        <div class="left-2">
+        <h2>левая колонка</h2>
+        <p>
+            width: 400px;<br />
+            две колонки без float одинаковой высоты<br />
+            (рамка вокруг параграфа)
+        </p> 
+        </div>  
+    
+        <div class="right-2">
+        <h2>правая колонка</h2>
+        <p>
+            width: 500px;<br />
+        </p>
+        </div>  
+    </div> 
+
+    <br /><div align="center">скрыть контент display: none;</div>
+
+    <br /><br /><br />
+</body>
+</html>

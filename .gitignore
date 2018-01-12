@@ -2,6 +2,10 @@
 wp-config.php
 hwwp-cont/wp-cache-config.php
 =======
+<<<<<<< HEAD
+wp-config.php
+hwwp-cont/wp-cache-config.php
+=======
 *.log
 wp-config.php
 wp-content/advanced-cache.php
@@ -21,3 +25,4 @@ wp-content/plugins/hello.php
 /sitemap.xml.gz
 
 >>>>>>> 26f8c422a9032cf0dba66dd6c90a334e7e18cabd
+>>>>>>> aae5663cf8f13adaed83fbdad5e69700833b63cb
