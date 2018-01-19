@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<!-- веб-страница html, автор: rostyslavnaryzhniak -->   
+<html lang="en"> 
+<head>
+    <meta http-equiv="Content-Type" charset="utf-8" />
+    <title>CSS Frontend Home Work Lesson 2</title>
+</head> 
+    <body bgcolor="darkgray";>
+<body>
+    <div>
+        <p><strong>Маркированный список:</strong></p>
+        <ul type="square">
+            <li>Первый элемент</li>
+            <li>Второй элемент</li>
+            <li>Третий элемент</li>
+            <li>
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>
+                        <ul>
+                            <li>3</li>
+                            <li>4</li>
+                            <li>5</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>  
+        
+        <p><strong>Нумированный список:</strong></p>
+        <ol type="I">
+            <li>Первый элемент</li>
+            <li>Второй элемент</li>
+            <li>Третий элемент</li>
+            <li>
+                <ol type="a">
+                    <li>элемент списка</li>
+                    <li>элемент списка</li>
+                </ol>
+            </li>
+        </ol>
+        
+        <p><strong>Список определений:</strong></p>
+        <dl>
+            <dt>Термин 1:</dt>
+            <dd>- первое определение</dd>
+            <dd>- второе определение</dd>
+            <dt>Термин 2:</dt>
+            <dd>определение второго термина</dd>
+        </dl>
+        
+        <p><strong>Таблицы</strong></p>
+        <table border="1" width="400px" cellpadding="5px" >
+            <tr>
+                <th>Строка 1<br />
+                    Строка 2
+                </th>
+                <th valign="bottom">Ячейка 2</th>
+            <tr>
+                <td>Ячейка 3</td>
+                <td>Ячейка 4</td>
+            </tr>    
+            </tr>
+        </table>
+    
+        <p><strong>Объединение строки таблицы</strong></p>
+        <table border="1" width="400px" cellpadding="5px" >
+            <tr>
+                <td colspan="2">Ячейка 1</td>
+                
+            <tr>
+                <td>Ячейка 3</td>
+                <td>Ячейка 4</td>
+            </tr>    
+            </tr>
+        </table>
+
+        <p><strong>Объединение колонки таблицы</strong></p>
+        <table border="1" width="400px" cellpadding="5px" >
+             <tr>
+                <td rowspan="2">Ячейка 1</td>
+                <td>Ячейка 2</td>
+            </tr>
+            <tr>
+                <td align="center">Ячейка 4</td>
+            </tr>
+        </table>
+
+        <p><strong>Вложенные таблицы</strong></p>
+        <table border="1" width="100%" cellpadding="5px" >
+             <tr>
+                <th rowspan="2" align="center">Ячейка 1</th>
+                <td>Ячейка 2</td>
+                <td><table border="1" width="400px" cellpadding="5px" >
+                     <tr>
+                        <td rowspan="2" align="center">Ячейка 21</td>
+                        <td>Ячейка 22</td>
+                    </tr>
+                    <tr>
+                        <td>Ячейка 24</td>
+                    </tr>
+                </td></table>
+            </tr>
+            <tr>
+                <td>Ячейка 4</td>
+                <td align="right">Ячейка 5</td>
+            </tr>
+        </table>
+    </div>
+
+    <p><strong>Формы</strong></p>
+    <form>       
+        <table border=0>
+            
+            <tr>
+                <td align="right" valign="top">Имя</td>
+                <td><input type ="text"></td>
+            </tr>
+            
+            <tr>
+                <td align="right" valign="top">E-mail</td>
+                <td><input type ="email"></td>
+            </tr>
+            
+            <tr>
+                <td align="right" valign="top">Пароль</td>
+                <td><input type ="password"></td>
+            </tr>
+            
+            <tr>
+                <td align="right" valign="top">Подтвердить пароль</td>
+                <td><input type ="password"></td>
+            </tr>
+            
+            <tr>
+                <td align="right" valign="top">Загрузить аватар</td>
+                <td><input type ="file"></td>
+            </tr>
+            
+            <tr>
+                <td align="right" valign="top">Пол?</td>
+                <td>
+                    <input type ="radio" name="sex">Мужской
+                    <input type ="radio" name="sex">Женский
+                </td>
+            </tr>
+            
+             <tr>
+                <td align="right" valign="top">Какими языками Вы владеете?</td>
+                <td>
+                    <input type ="checkbox"> Английский
+                    <input type ="checkbox"> Русский
+                    <input type ="checkbox"> Украинский
+                    <input type ="checkbox"> Немецкий
+                </td>
+            </tr>
+            
+            <tr>
+                <td align="right" valign="top">Ваши пожелания</td>
+                <td>
+                    <textarea></textarea>
+                </td>
+            </tr>
+            
+            <tr>
+                <td align="right" valign="top">Увлечения</td>
+                <td>
+                    <select>
+                        <option>Спорт</option>
+                        <option>Игры</option>
+                        <option>Автомобили</option>
+                        <option>Музыка</option>
+                    </select>
+                </td>
+            </tr> 
+            
+            <tr><td align="right">Цвет автомобиля</td><td><p>
+                    <select>
+                        <optgroup label="Цвет">
+                            <option value="c1">Апельсиновый</option>
+                            <option value="c2">Лимонный</option>
+                            <option value="c3">Персиковый</option>
+                        </optgroup>
+                        <optgroup label="Тон">
+                            <option value="s1">Светлый</option>
+                            <option value="s2">Нормальный</option>
+                            <option value="s3">Темный</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr> 
+            
+            <tr><td></td>
+                <td collspan="2">
+                    <input type ="reset" value="Очистить">
+                    <input type ="submit" value="Хорошо">
+                </td>
+            </tr> 
+             
+        </table>
+    </form>
+
+</body>
+</html>

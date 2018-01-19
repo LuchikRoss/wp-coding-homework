@@ -1,0 +1,101 @@
+body {
+    background: #dddddd;
+    font-size: 20px;
+    background: url('../images/ray-star.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden; 
+}
+
+p{
+    padding: 15px;
+}
+
+.block-relative{
+    width: 600px;
+    height: 290px;    
+    position: relative;
+    border: 1px solid orange;
+    top: 5px;
+    left: 100px;
+    color: black;
+    z-index: 3; 
+    background: darkorange;
+    border-radius: 20px;
+}
+
+.button-absolute{
+    width: 120;
+    height: 25px;
+    line-height: 25px;
+    display: block;
+    background: slateblue;
+    text-align: center;
+    text-decoration: none;
+    text-decoration: none;    
+    position: absolute;
+    border: 1px solid orange;
+    color: wheat;
+    padding: 1px 15px;
+    bottom: 20px;
+    right: 30px;
+}
+
+.image-block{
+  background: url('../images/arrow-down-left-green.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    width: 815px;
+    color: orange;
+}
+
+.phone-fixed{
+    background: url('../images/phone.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75px;
+    width: 75px;
+    position: fixed;
+    top: 15px;
+    left: 16px;
+}
+
+.p-fixed{
+    position: fixed;
+    top: 77px;
+    left: 20px;
+    color: slateblue;
+}
+
+.z-index-arrow{
+    background: url('../images/arrow-down.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 2;
+    height: 75px;
+    width: 75px;
+    position: relative;
+    top: -21px;
+    left: 662px;
+}
+
+.z-index-arrow-text{
+    color: aqua;
+    position: relative;
+    top: -40px;
+    left: 640px;
+}
+
+.a-href{   
+    position: relative;
+    font-size: 25px;
+    top: -60px;
+    left: 150px;
+    width: 500px;
+}
+
+a{
+    text-decoration: none;
+    color: lightcyan;
+}

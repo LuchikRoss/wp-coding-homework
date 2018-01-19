@@ -12,11 +12,7 @@ a:visited {
 }
 
 .pane.concavebox{
-<<<<<<< HEAD
 	background-color: #666666;
-=======
-	background-color: black;
->>>>>>> aae5663cf8f13adaed83fbdad5e69700833b63cb
 	margin: 0;
 	padding-bottom: 0;
 }
@@ -31,18 +27,12 @@ a:visited {
 
 .pane-title{
 	height: 0px;
-<<<<<<< HEAD
-=======
-	font-size: 20px;
-	padding: 20px;
->>>>>>> aae5663cf8f13adaed83fbdad5e69700833b63cb
 }
 
 .entry-header p.byline{
 	color: black;
 }
 
-<<<<<<< HEAD
 .alm-reveal h3{
 	padding-top: 10px;
 	text-align: left;
@@ -56,10 +46,6 @@ a:visited {
 
 #branding {
 	background-color: #221661;
-=======
-#branding {
-	background-color: #961b51;
->>>>>>> aae5663cf8f13adaed83fbdad5e69700833b63cb
 }
 
 .entry-header{
@@ -78,15 +64,11 @@ h1, h2, h3 ,h4, h5, p {
 
 .entry {
 	background-color: Cornsilk;
-<<<<<<< HEAD
 	padding: 15px;	
 }
 
 p.entry-meta{
 	display: none;
-=======
-	padding: 5;	
->>>>>>> aae5663cf8f13adaed83fbdad5e69700833b63cb
 }
 
 .entry-footer {
@@ -101,10 +83,7 @@ p.entry-meta{
 	padding: 5px;
 	margin:  5px;
 	padding-bottom: 18px;
-<<<<<<< HEAD
 	display: none;
-=======
->>>>>>> aae5663cf8f13adaed83fbdad5e69700833b63cb
 }
 
 .comment-reply-title{
@@ -113,7 +92,6 @@ p.entry-meta{
 	color: lightgreen;
 }
 
-<<<<<<< HEAD
 .pane-title{
 	font-size: 15px;
 	margin: 5px;
@@ -122,10 +100,6 @@ p.entry-meta{
 
 #comments{
 	background-color: #a8e4bd;
-=======
-#comments{
-	background-color: LightCyan;
->>>>>>> aae5663cf8f13adaed83fbdad5e69700833b63cb
 }
 
 .col-sm-10{
@@ -146,25 +120,16 @@ p.entry-meta{
 }
 
 #footer {
-<<<<<<< HEAD
  background-color: 	#2B1E0B;
-=======
- background-color: 	#2B1E0B;	
->>>>>>> aae5663cf8f13adaed83fbdad5e69700833b63cb
 }
 
 .widget_nav_menu a{
 	color: gray;
 	  }
 
-<<<<<<< HEAD
 #reply-title.comment-reply-title {
   font-size: smaller;
 	padding-top: 5px;
-=======
-#reply-title {
-	height: 20px;
->>>>>>> aae5663cf8f13adaed83fbdad5e69700833b63cb
 }
 
 .copyright {
@@ -174,7 +139,6 @@ p.entry-meta{
 }
 
 .size-alm-thumbnail{
-<<<<<<< HEAD
 }
 
 .alm-listing li img{
@@ -192,8 +156,4 @@ p.entry-meta{
 
 p.byline{
 	text-align: center;
-=======
-	padding: 20px;
-
->>>>>>> aae5663cf8f13adaed83fbdad5e69700833b63cb
 }

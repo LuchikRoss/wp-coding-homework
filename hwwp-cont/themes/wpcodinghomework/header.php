@@ -29,7 +29,6 @@ $slimwriter_logo = get_header_image();
             <button id="btn-mobile-menu-toggle"></button>
         </div>
         <div id="nav"><nav class="main">
-<<<<<<< HEAD
         </nav></div>
 				
                 <?php
@@ -56,21 +55,3 @@ $slimwriter_logo = get_header_image();
                 wp_nav_menu($args);
 
                 ?>  
-=======
-<?php
-$slimwriter_primary_menu = array(
-
-'theme_location'  => 'primary',
-'container'       => false, //'ul',
-'container_class' => 'menu-{menu slug}-container',
-'menu_class'      => 'menu',
-'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
-'depth'           => 0,
-'fallback_cb' => ''
-);
-
-wp_nav_menu( $slimwriter_primary_menu ); ?>
-
-
-        </nav></div>
->>>>>>> aae5663cf8f13adaed83fbdad5e69700833b63cb

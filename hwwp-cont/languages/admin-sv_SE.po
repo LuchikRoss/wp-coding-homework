@@ -2,11 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.9.x - Development - Administration package.
 msgid ""
 msgstr ""
-<<<<<<< HEAD
 "PO-Revision-Date: 2018-01-08 22:15:45+0000\n"
-=======
-"PO-Revision-Date: 2017-12-06 10:38:27+0000\n"
->>>>>>> aae5663cf8f13adaed83fbdad5e69700833b63cb
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -8321,13 +8317,6 @@ msgstr "Spara uppladdade filer i den här katalogen"
 msgid "Full URL path to files"
 msgstr "Fullständig sökväg till filer"
 
-<<<<<<< HEAD
-=======
-#: wp-admin/options-media.php:120
-msgid "Configuring this is optional. By default, it should be blank."
-msgstr "Konfigurering av det här är valfritt, som standard så bör det lämnas tomt."
-
->>>>>>> aae5663cf8f13adaed83fbdad5e69700833b63cb
 #: wp-admin/options-media.php:131
 msgid "Organize my uploads into month- and year-based folders"
 msgstr "Organisera mina uppladdade filer i kataloger enligt månad och år"
@@ -9064,13 +9053,10 @@ msgstr "Om du temporärt gör din fil %s skrivbar så kan WordPress att generera
 msgid "If you temporarily make your site&#8217;s root directory writable for us to generate the %s file automatically, do not forget to revert the permissions after the file has been created."
 msgstr "Om du temporärt gör din rotkatalog för webbservern skrivbar för att WordPress ska kunna generera filen %s automatiskt, glöm inte att återställa rättigheterna efter att filen har skapats."
 
-<<<<<<< HEAD
 #: wp-admin/options-media.php:120
 msgid "Configuring this is optional. By default, it should be blank."
 msgstr "Konfigurering av det här är valfritt, som standard bör det lämnas tomt."
 
-=======
->>>>>>> aae5663cf8f13adaed83fbdad5e69700833b63cb
 #: wp-admin/comment.php:123
 msgid "Permanently Delete Comment"
 msgstr "Radera kommentar permanent"

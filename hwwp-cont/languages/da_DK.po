@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.9.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-11-15 21:11:38+0000\n"
+"PO-Revision-Date: 2018-01-14 18:20:23+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -28,19 +28,19 @@ msgstr "ltr"
 #. default is .
 #: wp-includes/class-wp-locale.php:220
 msgid "number_format_decimal_point"
-msgstr ","
+msgstr "number_format_decimal_point"
 
 #. translators: $thousands_sep argument for
 #. https://secure.php.net/number_format, default is ,
 #: wp-includes/class-wp-locale.php:207
 msgid "number_format_thousands_sep"
-msgstr "."
+msgstr "number_format_thousands_sep"
 
 #: wp-includes/class-wp-customize-manager.php:4135
 msgid "Update anyway, even though it might break your site?"
 msgstr "Opdater alligevel, selvom det måske kan skade dit websted."
 
-#: wp-includes/wp-db.php:1290
+#: wp-includes/wp-db.php:1283
 msgid "The query only expected one placeholder, but an array of multiple placeholders was sent."
 msgstr "Forespørgslen forventede kun én pladsholder, men en samling af flere pladsholdere blev sendt."
 
@@ -240,12 +240,12 @@ msgstr "%1$s &lsaquo; %2$s &#8212; WordPress"
 msgid "Site Name: %s"
 msgstr "Webstedsnavn: %s"
 
-#: wp-includes/wp-db.php:1253
+#: wp-includes/wp-db.php:1246
 msgid "Unsupported value type (%s)."
 msgstr "Ikke understøttet værdi-type (%s)."
 
 #. translators: 1: number of placeholders, 2: number of arguments passed
-#: wp-includes/wp-db.php:1301
+#: wp-includes/wp-db.php:1294
 msgid "The query does not contain the correct number of placeholders (%1$d) for the number of arguments passed (%2$d)."
 msgstr "Forespørgslen indeholder ikke det korrekte antal pladsholdere (%1$d) til antallet af argumenter benyttet (%2$d)."
 
@@ -787,7 +787,7 @@ msgstr "Scrape af nonce-tjek fejlede. Prøv venligst igen."
 
 #. translators: Do not translate OLD_EMAIL, NEW_EMAIL, SITENAME, SITEURL: those
 #. are placeholders.
-#: wp-includes/functions.php:5756
+#: wp-includes/functions.php:5757
 msgid ""
 "Hi,\n"
 "\n"
@@ -815,11 +815,11 @@ msgstr ""
 
 #. translators: Site admin email change notification email subject. %s: Site
 #. title
-#: wp-includes/functions.php:5771
+#: wp-includes/functions.php:5772
 msgid "[%s] Notice of Admin Email Change"
 msgstr "[%s] Besked om ændring af administrators e-mail"
 
-#: wp-includes/functions.php:5699
+#: wp-includes/functions.php:5700
 msgid "Only UUID V4 is supported at this time."
 msgstr "Kun UUID V4 er understøttet på nuværende tidspunkt."
 
@@ -3858,7 +3858,7 @@ msgstr "Forsigtig: Disse temaer kan være aktive på andre websteder i netværke
 msgid "Deletion failed: %s"
 msgstr "Sletning mislykkedes: %s"
 
-#: wp-includes/wp-db.php:1856 wp-includes/wp-db.php:1862
+#: wp-includes/wp-db.php:1849 wp-includes/wp-db.php:1855
 msgid "Unable to retrieve the error message from MySQL"
 msgstr "Ikke i stand til at modtage fejlmeddelelser fra MySQL"
 
@@ -4145,13 +4145,13 @@ msgstr "Intet logo valgt"
 msgid "Choose logo"
 msgstr "Vælg logo"
 
-#: wp-includes/functions.php:5312
+#: wp-includes/functions.php:5313
 msgid "Close dialog"
 msgstr "Luk dialog"
 
 #. translators: 1: PHP class name, 2: PHP parent class name, 3: version number,
 #. 4: __construct() method
-#: wp-includes/functions.php:3900
+#: wp-includes/functions.php:3901
 msgid "The called constructor method for %1$s in %2$s is <strong>deprecated</strong> since version %3$s! Use %4$s instead."
 msgstr "Den kaldte constructor-metode for %1$s i %2$s er <strong>forældet</strong> siden version %3$s! Brug i stedet %4$s."
 
@@ -4282,11 +4282,11 @@ msgid "Read the <a href=\"%s\" target=\"_blank\">bug report</a> page. Some of th
 msgstr "Læs <a href=\"%s\" target=\"_blank\">fejlrapporteringssiden</a>.Nogle af retningslinjerne der kan måske hjælpe dig med at finde ud, hvad der er galt."
 
 #. translators: %s: Codex URL
-#: wp-includes/functions.php:4142
+#: wp-includes/functions.php:4143
 msgid "Please see <a href=\"%s\">Debugging in WordPress</a> for more information."
 msgstr "Se venligst <a href=\"%s\">Fejlfinding i WordPress</a> for mere information."
 
-#: wp-includes/functions.php:4143
+#: wp-includes/functions.php:4144
 msgid "https://codex.wordpress.org/Debugging_in_WordPress"
 msgstr "https://codex.wordpress.org/Debugging_in_WordPress"
 
@@ -4330,24 +4330,6 @@ msgid "Term ID is shared between multiple taxonomies"
 msgstr "Term-ID deles mellem flere taksonomier"
 
 #. translators: month name, genitive
-#: wp-includes/class-wp-locale.php:175
-msgctxt "genitive"
-msgid "June"
-msgstr "junis"
-
-#. translators: month name, genitive
-#: wp-includes/class-wp-locale.php:176
-msgctxt "genitive"
-msgid "July"
-msgstr "julis"
-
-#. translators: month name, genitive
-#: wp-includes/class-wp-locale.php:177
-msgctxt "genitive"
-msgid "August"
-msgstr "augusts"
-
-#. translators: month name, genitive
 #: wp-includes/class-wp-locale.php:178
 msgctxt "genitive"
 msgid "September"
@@ -4365,33 +4347,33 @@ msgctxt "genitive"
 msgid "November"
 msgstr "novembers"
 
-#. translators: month name, genitive
-#: wp-includes/class-wp-locale.php:181
-msgctxt "genitive"
-msgid "December"
-msgstr "decembers"
-
 #: wp-includes/taxonomy.php:1144 wp-includes/taxonomy.php:1226
 msgid "Term meta cannot be added to terms that are shared between taxonomies."
 msgstr "Term-meta kan ikke tilføjes til termer, som deles mellem taksonomier."
 
 #. translators: month name, genitive
-#: wp-includes/class-wp-locale.php:170
+#: wp-includes/class-wp-locale.php:176
 msgctxt "genitive"
-msgid "January"
-msgstr "januars"
+msgid "July"
+msgstr "juli"
 
 #. translators: month name, genitive
-#: wp-includes/class-wp-locale.php:171
+#: wp-includes/class-wp-locale.php:175
 msgctxt "genitive"
-msgid "February"
-msgstr "februars"
+msgid "June"
+msgstr "juni"
 
 #. translators: month name, genitive
-#: wp-includes/class-wp-locale.php:173
+#: wp-includes/class-wp-locale.php:181
 msgctxt "genitive"
-msgid "April"
-msgstr "aprils"
+msgid "December"
+msgstr "december"
+
+#. translators: month name, genitive
+#: wp-includes/class-wp-locale.php:177
+msgctxt "genitive"
+msgid "August"
+msgstr "august"
 
 #. translators: month name, genitive
 #: wp-includes/class-wp-locale.php:174
@@ -4411,6 +4393,24 @@ msgstr "off"
 msgctxt "genitive"
 msgid "March"
 msgstr "marts'"
+
+#. translators: month name, genitive
+#: wp-includes/class-wp-locale.php:170
+msgctxt "genitive"
+msgid "January"
+msgstr "januar"
+
+#. translators: month name, genitive
+#: wp-includes/class-wp-locale.php:171
+msgctxt "genitive"
+msgid "February"
+msgstr "februar"
+
+#. translators: month name, genitive
+#: wp-includes/class-wp-locale.php:173
+msgctxt "genitive"
+msgid "April"
+msgstr "april"
 
 #: wp-includes/embed.php:998
 msgid "Sharing options"
@@ -4495,66 +4495,66 @@ msgstr "Webstedssprog:"
 msgid "Author:"
 msgstr "Forfatter:"
 
-#: wp-includes/wp-db.php:1596 wp-includes/wp-db.php:1753
+#: wp-includes/wp-db.php:1589 wp-includes/wp-db.php:1746
 msgid "Are you sure that the database server is running?"
 msgstr "Er du sikker på, at databaseserveren kører?"
 
-#: wp-includes/wp-db.php:1744
+#: wp-includes/wp-db.php:1737
 msgid "Error reconnecting to the database"
 msgstr "Fejl i forsøg på at genoprette forbindelse til databasen"
 
-#: wp-includes/wp-db.php:1754
+#: wp-includes/wp-db.php:1747
 msgid "Are you sure that the database server is not under particularly heavy load?"
 msgstr "Er du sikker på, at databaseserveren ikke er ekstraordinært hårdt belastet?"
 
 #. translators: %s: database host
-#: wp-includes/wp-db.php:1748
+#: wp-includes/wp-db.php:1741
 msgid "This means that we lost contact with the database server at %s. This could mean your host&#8217;s database server is down."
 msgstr "Dette betyder, at vi har mistet forbindelsen til databaseserveren på %s. Det kunne betyde, at din udbyders databaseserver er nede."
 
 #. translators: %s: support forums URL
-#: wp-includes/wp-db.php:1601 wp-includes/wp-db.php:1759
+#: wp-includes/wp-db.php:1594 wp-includes/wp-db.php:1752
 msgid "If you&#8217;re unsure what these terms mean you should probably contact your host. If you still need help you can always visit the <a href=\"%s\">WordPress Support Forums</a>."
 msgstr "Hvis du er usikker på, hvad disse ting betyder, bør du nok kontakte din udbyder. Hvis du stadigvæk har brug for hjælp, kan du altid besøge <a href=\"%s\">WordPress' supportfora</a> (eller <a href=\"http://wp-danmark.dk/forum/\">WordPress DK Forum</a> hvor vi kan hjælpe på dansk)."
 
-#: wp-includes/wp-db.php:1595
+#: wp-includes/wp-db.php:1588
 msgid "Are you sure that you have typed the correct hostname?"
 msgstr "Er du sikker på, at du har skrevet det korrekte værtsnavn?"
 
-#: wp-includes/wp-db.php:1594
+#: wp-includes/wp-db.php:1587
 msgid "Are you sure you have the correct username and password?"
 msgstr "Er du sikker på, at du har det korrekte brugernavn og adgangskode?"
 
 #. translators: 1: wp-config.php. 2: database host
-#: wp-includes/wp-db.php:1588
+#: wp-includes/wp-db.php:1581
 msgid "This either means that the username and password information in your %1$s file is incorrect or we can&#8217;t contact the database server at %2$s. This could mean your host&#8217;s database server is down."
 msgstr "Det betyder enten, at oplysningerne om brugernavn og adgangskode i filen %1$s er forkerte, eller at vi ikke kan oprette forbindelse til %2$s. Det kunne betyde, at din udbyders databaseserver er nede."
 
 #. translators: %s: support forums URL
-#: wp-includes/wp-db.php:1068
+#: wp-includes/wp-db.php:1061
 msgid "If you don&#8217;t know how to set up a database you should <strong>contact your host</strong>. If all else fails you may find help at the <a href=\"%s\">WordPress Support Forums</a>."
 msgstr "Hvis du ikke ved, hvordan man sætter en database op, bør du <strong>kontakte din udbyder</strong> Hvis alt andet mislykkes, kan du måske få hjælp i <a href=\"%s\">WordPress' supportfora</a>."
 
-#: wp-includes/wp-db.php:1040
+#: wp-includes/wp-db.php:1033
 msgid "Can&#8217;t select database"
 msgstr "Kan ikke vælge database"
 
-#: wp-includes/wp-db.php:1049
+#: wp-includes/wp-db.php:1042
 msgid "Are you sure it exists?"
 msgstr "Er du sikker på, at den eksisterer?"
 
 #. translators: 1: database user, 2: database name
-#: wp-includes/wp-db.php:1053
+#: wp-includes/wp-db.php:1046
 msgid "Does the user %1$s have permission to use the %2$s database?"
 msgstr "Har brugeren %1$s tilladelse til at bruge databasen %2$s?"
 
 #. translators: %s: database name
-#: wp-includes/wp-db.php:1060
+#: wp-includes/wp-db.php:1053
 msgid "On some systems the name of your database is prefixed with your username, so it would be like <code>username_%1$s</code>. Could that be the problem?"
 msgstr "På nogle systemer er dit brugernavn tilføjet foran navnet på databasen, fx således: <code>brugernavn_%1$s</code>. Kan det være problemet?"
 
 #. translators: %s: database name
-#: wp-includes/wp-db.php:1044
+#: wp-includes/wp-db.php:1037
 msgid "We were able to connect to the database server (which means your username and password is okay) but not able to select the %s database."
 msgstr "Vi kunne oprette forbindelse til databaseserveren (så dit brugernavn og adgangskode er ok), men ikke vælge databasen %s."
 
@@ -4731,18 +4731,6 @@ msgid "Dec"
 msgstr "dec"
 
 #. translators: three-letter abbreviation of the month
-#: wp-includes/class-wp-locale.php:190
-msgctxt "July abbreviation"
-msgid "Jul"
-msgstr "jul"
-
-#. translators: three-letter abbreviation of the month
-#: wp-includes/class-wp-locale.php:191
-msgctxt "August abbreviation"
-msgid "Aug"
-msgstr "aug"
-
-#. translators: three-letter abbreviation of the month
 #: wp-includes/class-wp-locale.php:192
 msgctxt "September abbreviation"
 msgid "Sep"
@@ -4755,16 +4743,16 @@ msgid "Oct"
 msgstr "okt"
 
 #. translators: three-letter abbreviation of the month
-#: wp-includes/class-wp-locale.php:184
-msgctxt "January abbreviation"
-msgid "Jan"
-msgstr "jan"
+#: wp-includes/class-wp-locale.php:190
+msgctxt "July abbreviation"
+msgid "Jul"
+msgstr "jul"
 
 #. translators: three-letter abbreviation of the month
-#: wp-includes/class-wp-locale.php:185
-msgctxt "February abbreviation"
-msgid "Feb"
-msgstr "feb"
+#: wp-includes/class-wp-locale.php:191
+msgctxt "August abbreviation"
+msgid "Aug"
+msgstr "aug"
 
 #. translators: three-letter abbreviation of the month
 #: wp-includes/class-wp-locale.php:186
@@ -4773,22 +4761,34 @@ msgid "Mar"
 msgstr "mar"
 
 #. translators: three-letter abbreviation of the month
-#: wp-includes/class-wp-locale.php:187
-msgctxt "April abbreviation"
-msgid "Apr"
-msgstr "apr"
-
-#. translators: three-letter abbreviation of the month
 #: wp-includes/class-wp-locale.php:188
 msgctxt "May abbreviation"
 msgid "May"
 msgstr "maj"
 
 #. translators: three-letter abbreviation of the month
+#: wp-includes/class-wp-locale.php:184
+msgctxt "January abbreviation"
+msgid "Jan"
+msgstr "jan"
+
+#. translators: three-letter abbreviation of the month
 #: wp-includes/class-wp-locale.php:189
 msgctxt "June abbreviation"
 msgid "Jun"
 msgstr "jun"
+
+#. translators: three-letter abbreviation of the month
+#: wp-includes/class-wp-locale.php:185
+msgctxt "February abbreviation"
+msgid "Feb"
+msgstr "feb"
+
+#. translators: three-letter abbreviation of the month
+#: wp-includes/class-wp-locale.php:187
+msgctxt "April abbreviation"
+msgid "Apr"
+msgstr "apr"
 
 #. translators: one-letter abbreviation of the weekday
 #: wp-includes/class-wp-locale.php:141
@@ -5068,7 +5068,7 @@ msgstr "Tilføj til menu: %1$s (%2$s)"
 msgid "When starting a new paragraph with one of these formatting shortcuts followed by a space, the formatting will be applied automatically. Press Backspace or Escape to undo."
 msgstr "Når du starter et nyt afsnit med en af disse formateringsgenveje efterfulgt af et mellemrum, så vil formateringen tilføjet automatisk. Tryk Backspace eller Escape for at fortryde."
 
-#: wp-includes/wp-db.php:1386 wp-includes/wp-db.php:1403
+#: wp-includes/wp-db.php:1379 wp-includes/wp-db.php:1396
 msgid "WordPress database error:"
 msgstr "WordPress databasefejl:"
 
@@ -5154,7 +5154,7 @@ msgid "Reorder menu items"
 msgstr "Omorganiser menuelementerne"
 
 #. translators: 1: PHP class name, 2: version number, 3: __construct() method
-#: wp-includes/functions.php:3904
+#: wp-includes/functions.php:3905
 msgid "The called constructor method for %1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr "Den kaldte constructor-metode for %1$s er <strong>forældet</strong> siden version %2$s! Brug %3$s."
 
@@ -5318,7 +5318,7 @@ msgstr "Fjern videokilde"
 #: wp-includes/formatting.php:135
 msgctxt "Comma-separated list of replacement words in your language"
 msgid "&#8217;tain&#8217;t,&#8217;twere,&#8217;twas,&#8217;tis,&#8217;twill,&#8217;til,&#8217;bout,&#8217;nuff,&#8217;round,&#8217;cause,&#8217;em"
-msgstr "&#8217;s"
+msgstr "&#8217;tain&#8217;t,&#8217;twere,&#8217;twas,&#8217;tis,&#8217;twill,&#8217;til,&#8217;bout,&#8217;nuff,&#8217;round,&#8217;cause,&#8217;em"
 
 #. translators: This is a comma-separated list of words that defy the syntax of
 #. quotations in normal use, for example...  'We do not have enough words yet'
@@ -5327,7 +5327,7 @@ msgstr "&#8217;s"
 #: wp-includes/formatting.php:132
 msgctxt "Comma-separated list of words to texturize in your language"
 msgid "'tain't,'twere,'twas,'tis,'twill,'til,'bout,'nuff,'round,'cause,'em"
-msgstr "'s"
+msgstr "'tain't,'twere,'twas,'tis,'twill,'til,'bout,'nuff,'round,'cause,'em"
 
 #: wp-includes/class-wp-editor.php:1277
 msgid "Cmd + letter:"
@@ -5919,7 +5919,7 @@ msgstr "En term med navnet og korttitlen findes allerede i denne taksonomi."
 
 #. translators: %s: database access abstraction class, usually wpdb or a class
 #. extending wpdb
-#: wp-includes/wp-db.php:1117
+#: wp-includes/wp-db.php:1110
 msgid "%s must set a database connection for use with escaping."
 msgstr "%s skal opsætte en databaseforbindelse for at bruge undvigning."
 
@@ -6587,11 +6587,6 @@ msgctxt "table cell"
 msgid "Cell"
 msgstr "Celle"
 
-#: wp-includes/class-wp-editor.php:1183
-msgctxt "table body"
-msgid "Body"
-msgstr "Body"
-
 #: wp-includes/class-wp-editor.php:1221
 msgctxt "TinyMCE"
 msgid "Insert template"
@@ -6789,6 +6784,11 @@ msgctxt "table footer"
 msgid "Footer"
 msgstr "Sidefod"
 
+#: wp-includes/class-wp-editor.php:1183
+msgctxt "table body"
+msgid "Body"
+msgstr "Tabel indhold"
+
 #: wp-includes/media-template.php:1072 wp-includes/media-template.php:1154
 msgid "Add alternate sources for maximum HTML5 playback:"
 msgstr "Tilføj alternative kilder for maksimal HTML5-afspilning:"
@@ -6851,7 +6851,7 @@ msgctxt "Search widget"
 msgid "Search"
 msgstr "Søg"
 
-#: wp-includes/wp-db.php:1237
+#: wp-includes/wp-db.php:1230
 msgid "The query argument of %s must have a placeholder."
 msgstr "Forespørgslen %s skal have en pladsholder."
 
@@ -7092,8 +7092,8 @@ msgstr "Indsæt dato/tid"
 
 #: wp-includes/admin-bar.php:164 wp-includes/update.php:153
 #: wp-includes/update.php:345 wp-includes/update.php:523
-#: wp-includes/wp-db.php:1069 wp-includes/wp-db.php:1602
-#: wp-includes/wp-db.php:1760 wp-login.php:882
+#: wp-includes/wp-db.php:1062 wp-includes/wp-db.php:1595
+#: wp-includes/wp-db.php:1753 wp-login.php:882
 msgid "https://wordpress.org/support/"
 msgstr "https://wordpress.org/support/"
 
@@ -7550,7 +7550,7 @@ msgstr "Webstedet, du ledte efter, %s, eksisterer ikke, men du kan oprette det n
 msgid "Your session has expired. You can log in again from this page or go to the login page."
 msgstr "Din session er udløbet. Du kan logge ind igen fra denne side eller gå til login-siden."
 
-#: wp-includes/functions.php:5329
+#: wp-includes/functions.php:5330
 msgid "The login page will open in a new window. After logging in you can close it and return to this page."
 msgstr "Login-siden vil åbne i et nyt vindue. Når du er logget ind, kan du lukke det og gå tilbage til denne side."
 
@@ -7575,7 +7575,7 @@ msgctxt "placeholder"
 msgid "Search &hellip;"
 msgstr "Søg &hellip;"
 
-#: wp-includes/functions.php:5327 wp-includes/script-loader.php:568
+#: wp-includes/functions.php:5328 wp-includes/script-loader.php:568
 msgid "Session expired"
 msgstr "Session udløbet"
 
@@ -8578,12 +8578,12 @@ msgstr "Supportfora"
 msgid "&hellip;"
 msgstr "&hellip;"
 
-#: wp-includes/functions.php:3773
+#: wp-includes/functions.php:3774
 msgid "Database Error"
 msgstr "Databasefejl"
 
-#: wp-includes/functions.php:3777 wp-includes/ms-load.php:455
-#: wp-includes/wp-db.php:1584
+#: wp-includes/functions.php:3778 wp-includes/ms-load.php:455
+#: wp-includes/wp-db.php:1577
 msgid "Error establishing a database connection"
 msgstr "Fejl ved etablering af databaseforbindelse"
 
@@ -8761,12 +8761,12 @@ msgstr "Brugeren er allerede aktiv."
 
 #. translators: Developer debugging message. 1: PHP function name, 2:
 #. Explanatory message, 3: Version information message
-#: wp-includes/functions.php:4146
+#: wp-includes/functions.php:4147
 msgid "%1$s was called <strong>incorrectly</strong>. %2$s %3$s"
 msgstr "%1$s er kaldt <strong>forkert</strong>. %2$s %3$s"
 
 #. translators: %s: version number
-#: wp-includes/functions.php:4139
+#: wp-includes/functions.php:4140
 msgid "(This message was added in version %s.)"
 msgstr "(denne meddelelse blev tilføjet i version %s)."
 
@@ -9436,8 +9436,8 @@ msgstr "%d WordPress opdatering"
 #: wp-includes/update.php:626
 msgid "%d Theme Update"
 msgid_plural "%d Theme Updates"
-msgstr[0] "%d Temaopdatering"
-msgstr[1] "%d Temaopdateringer"
+msgstr[0] "%d Tema opdatering"
+msgstr[1] "%d Tema opdateringer"
 
 #. translators: 1: Post title
 #: wp-includes/pluggable.php:1471
@@ -9737,7 +9737,7 @@ msgid "Sorry, you are not allowed to update posts as this user."
 msgstr "Du har ikke tilladelse til at opdatere indlæg som denne bruger."
 
 #. translators: 1: Database error message, 2: SQL query
-#: wp-includes/wp-db.php:1373
+#: wp-includes/wp-db.php:1366
 msgid "WordPress database error %1$s for query %2$s"
 msgstr "WordPress-databasefejl %1$s for forespørgslen %2$s"
 
@@ -9751,7 +9751,7 @@ msgstr "Kommentarforfatteren skal udfylde navn og e-mail."
 
 #. translators: 1: Database error message, 2: SQL query, 3: Name of the calling
 #. function
-#: wp-includes/wp-db.php:1370
+#: wp-includes/wp-db.php:1363
 msgid "WordPress database error %1$s for query %2$s made by %3$s"
 msgstr "WordPress-databasefejl %1$s for forespørgslen %2$s fra %3$s"
 
@@ -9950,19 +9950,19 @@ msgstr "Intet filnavn"
 msgid "Could not write file %s"
 msgstr "Kunne ikke gemme filen %s"
 
-#: wp-includes/functions.php:2616
+#: wp-includes/functions.php:2617
 msgid "WordPress Failure Notice"
 msgstr "WordPress fejlbesked"
 
-#: wp-includes/functions.php:2736
+#: wp-includes/functions.php:2737
 msgid "&laquo; Back"
 msgstr "&laquo; Tilbage"
 
-#: wp-includes/functions.php:2748 wp-load.php:92
+#: wp-includes/functions.php:2749 wp-load.php:92
 msgid "WordPress &rsaquo; Error"
 msgstr "WordPress &rsaquo; Fejl"
 
-#: wp-includes/functions.php:4714 wp-includes/functions.php:4718
+#: wp-includes/functions.php:4715 wp-includes/functions.php:4719
 msgid "UTC"
 msgstr "UTC"
 
@@ -10006,55 +10006,15 @@ msgstr "&raquo;"
 msgid "%1$s %2$s Feed"
 msgstr "%1$s %2$s Feed"
 
-#. translators: 1: blog name, 2: separator(raquo), 3: category name
-#: wp-includes/general-template.php:2692
-msgid "%1$s %2$s %3$s Category Feed"
-msgstr "%1$s %2$s %3$s-kategorifeed"
-
-#. translators: 1: blog name, 2: separator(raquo), 3: tag name
-#: wp-includes/general-template.php:2694
-msgid "%1$s %2$s %3$s Tag Feed"
-msgstr "%1$s %2$s %3$s-tagfeed"
-
-#. translators: month name
-#: wp-includes/class-wp-locale.php:156 wp-includes/class-wp-locale.php:184
-msgid "January"
-msgstr "januar"
-
-#. translators: month name
-#: wp-includes/class-wp-locale.php:157 wp-includes/class-wp-locale.php:185
-msgid "February"
-msgstr "februar"
-
 #. translators: month name
 #: wp-includes/class-wp-locale.php:158 wp-includes/class-wp-locale.php:186
 msgid "March"
 msgstr "marts"
 
 #. translators: month name
-#: wp-includes/class-wp-locale.php:159 wp-includes/class-wp-locale.php:187
-msgid "April"
-msgstr "april"
-
-#. translators: month name
 #: wp-includes/class-wp-locale.php:160 wp-includes/class-wp-locale.php:188
 msgid "May"
 msgstr "maj"
-
-#. translators: month name
-#: wp-includes/class-wp-locale.php:161 wp-includes/class-wp-locale.php:189
-msgid "June"
-msgstr "juni"
-
-#. translators: month name
-#: wp-includes/class-wp-locale.php:162 wp-includes/class-wp-locale.php:190
-msgid "July"
-msgstr "juli"
-
-#. translators: month name
-#: wp-includes/class-wp-locale.php:163 wp-includes/class-wp-locale.php:191
-msgid "August"
-msgstr "august"
 
 #. translators: month name
 #: wp-includes/class-wp-locale.php:164 wp-includes/class-wp-locale.php:192
@@ -10070,11 +10030,6 @@ msgstr "oktober"
 #: wp-includes/class-wp-locale.php:166 wp-includes/class-wp-locale.php:194
 msgid "November"
 msgstr "november"
-
-#. translators: month name
-#: wp-includes/class-wp-locale.php:167 wp-includes/class-wp-locale.php:195
-msgid "December"
-msgstr "december"
 
 #. translators: weekday
 #: wp-includes/class-wp-locale.php:129 wp-includes/class-wp-locale.php:138
@@ -10107,12 +10062,6 @@ msgid "Thursday"
 msgstr "torsdag"
 
 #. translators: weekday
-#: wp-includes/class-wp-locale.php:134 wp-includes/class-wp-locale.php:143
-#: wp-includes/class-wp-locale.php:152
-msgid "Friday"
-msgstr "fredag"
-
-#. translators: weekday
 #: wp-includes/class-wp-locale.php:135 wp-includes/class-wp-locale.php:144
 #: wp-includes/class-wp-locale.php:153
 msgid "Saturday"
@@ -10142,11 +10091,6 @@ msgstr "ons"
 #: wp-includes/class-wp-locale.php:151
 msgid "Thu"
 msgstr "tors"
-
-#. translators: three-letter abbreviation of the weekday
-#: wp-includes/class-wp-locale.php:152
-msgid "Fri"
-msgstr "fre"
 
 #. translators: three-letter abbreviation of the weekday
 #: wp-includes/class-wp-locale.php:153
@@ -10642,7 +10586,7 @@ msgstr "Tilføj afsnit automatisk"
 
 #. translators: 1: WordPress version number, 2: Minimum required MySQL version
 #. number
-#: wp-includes/wp-db.php:3318
+#: wp-includes/wp-db.php:3311
 msgid "<strong>ERROR</strong>: WordPress %1$s requires MySQL %2$s or higher"
 msgstr "<strong>FEJL</strong>: WordPress %1$s kræver MySQL %2$s eller nyere"
 
@@ -10823,7 +10767,7 @@ msgstr "<strong>FEJL</strong>: Din konto er markeret som en spammer."
 msgid "An error occurred in the upload. Please try again later."
 msgstr "Der opstod en fejl under overførslen. Prøv venligst igen senere."
 
-#: wp-includes/functions.php:2611 wp-includes/ms-functions.php:2047
+#: wp-includes/functions.php:2612 wp-includes/ms-functions.php:2047
 msgid "Please try again."
 msgstr "Prøv venligst igen."
 
@@ -10851,7 +10795,7 @@ msgstr "Næste &gt;"
 msgid "Schedule for:"
 msgstr "Planlæg til:"
 
-#: wp-includes/functions.php:4669
+#: wp-includes/functions.php:4670
 msgid "Select a city"
 msgstr "Vælg en by"
 
@@ -10970,16 +10914,16 @@ msgstr "%s er en beskyttet WP-indstilling, som ikke må ændres"
 #. translators: 1: PHP file name, 2: version number, 3: alternative file name
 #. translators: 1: WordPress hook name, 2: version number, 3: alternative hook
 #. name
-#: wp-includes/functions.php:3838 wp-includes/functions.php:3966
-#: wp-includes/functions.php:4089
+#: wp-includes/functions.php:3839 wp-includes/functions.php:3967
+#: wp-includes/functions.php:4090
 msgid "%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr "%1$s har været <strong>forældet</strong> siden version %2$s! Brug %3$s i stedet."
 
 #. translators: 1: PHP function name, 2: version number
 #. translators: 1: PHP file name, 2: version number
 #. translators: 1: WordPress hook name, 2: version number
-#: wp-includes/functions.php:3841 wp-includes/functions.php:3969
-#: wp-includes/functions.php:4092
+#: wp-includes/functions.php:3842 wp-includes/functions.php:3970
+#: wp-includes/functions.php:4093
 msgid "%1$s is <strong>deprecated</strong> since version %2$s with no alternative available."
 msgstr "%1$s har været <strong>forældet</strong> siden version %2$s, og der er ingen alternativer."
 
@@ -11065,7 +11009,7 @@ msgid "%s [Current Revision]"
 msgstr "%s [Nuværende revision]"
 
 #. translators: %s: logout URL
-#: wp-includes/functions.php:2602
+#: wp-includes/functions.php:2603
 msgid "Do you really want to <a href=\"%s\">log out</a>?"
 msgstr "Vil du virkelig <a href=\"%s\">logge ud</a>?"
 
@@ -11085,7 +11029,7 @@ msgstr "Ugyldig aktiveringsnøgle."
 msgid "This feature requires inline frames. You have iframes disabled or your browser does not support them."
 msgstr "Denne mulighed kræver inline frames. Enten har du deaktiveret iframes eller de understøttes ikke af din browser."
 
-#: wp-includes/functions.php:5328 wp-includes/user.php:285
+#: wp-includes/functions.php:5329 wp-includes/user.php:285
 msgid "Please log in again."
 msgstr "Log venligst ind igen."
 
@@ -11118,7 +11062,7 @@ msgid "<strong>ERROR</strong>: The username field is empty."
 msgstr "<strong>FEJL</strong>: Brugernavnsfeltet er tomt."
 
 #. translators: %s: site name
-#: wp-includes/functions.php:2595
+#: wp-includes/functions.php:2596
 msgid "You are attempting to log out of %s"
 msgstr "Du prøver at logge ud af %s"
 
@@ -11152,21 +11096,11 @@ msgstr "[%s] Nulstilling af adgangskode"
 msgid "Enter the URL"
 msgstr "Skriv URL'en"
 
-#. translators: 1: blog name, 2: separator(raquo), 3: post title
-#: wp-includes/general-template.php:2690
-msgid "%1$s %2$s %3$s Comments Feed"
-msgstr "%1$s %2$s %3$s-kommentarfeed"
-
-#. translators: 1: blog title, 2: separator (raquo)
-#: wp-includes/general-template.php:2650
-msgid "%1$s %2$s Comments Feed"
-msgstr "%1$s %2$s-kommentarfeed"
-
 #: wp-includes/widgets.php:1516
 msgid "Give the feed a title (optional):"
 msgstr "Giv feedet en titel (valgfrit):"
 
-#: wp-includes/functions.php:4722
+#: wp-includes/functions.php:4723
 msgid "Manual Offsets"
 msgstr "Manuelle forskydninger"
 
@@ -11183,13 +11117,13 @@ msgid "Slow down cowboy, no need to check for new mails so often!"
 msgstr "Klap lige hesten, cowboy. Du behøver ikke tjekke mail så tit!"
 
 #. translators: 1: PHP function name, 2: version number
-#: wp-includes/functions.php:4033
+#: wp-includes/functions.php:4034
 msgid "%1$s was called with an argument that is <strong>deprecated</strong> since version %2$s with no alternative available."
 msgstr "%1$s blev kaldt med en parameter der er blevet <strong>forældet</strong> siden version %2$s uden noget alternativ."
 
 #. translators: 1: PHP function name, 2: version number, 3: optional message
 #. regarding the change
-#: wp-includes/functions.php:4030
+#: wp-includes/functions.php:4031
 msgid "%1$s was called with an argument that is <strong>deprecated</strong> since version %2$s! %3$s"
 msgstr "%1$s blev kaldt med et argument der har været <strong>forældet</strong> siden version %2$s! %3$s"
 
@@ -11266,6 +11200,72 @@ msgstr "Kunne ikke indsætte termen i databasen."
 #: wp-includes/taxonomy.php:2710
 msgid "The slug &#8220;%s&#8221; is already in use by another term."
 msgstr "Korttitlen &#8220;%s&#8221; bruges allerede af en anden term."
+
+#. translators: 1: blog name, 2: separator(raquo), 3: category name
+#: wp-includes/general-template.php:2692
+msgid "%1$s %2$s %3$s Category Feed"
+msgstr "%1$s %2$s %3$s-kategori feed"
+
+#. translators: 1: blog name, 2: separator(raquo), 3: post title
+#: wp-includes/general-template.php:2690
+msgid "%1$s %2$s %3$s Comments Feed"
+msgstr "%1$s %2$s %3$s-kommentar feed"
+
+#. translators: 1: blog name, 2: separator(raquo), 3: tag name
+#: wp-includes/general-template.php:2694
+msgid "%1$s %2$s %3$s Tag Feed"
+msgstr "%1$s %2$s %3$s-tag feed"
+
+#. translators: 1: blog title, 2: separator (raquo)
+#: wp-includes/general-template.php:2650
+msgid "%1$s %2$s Comments Feed"
+msgstr "%1$s %2$s-kommentar feed"
+
+#. translators: month name
+#: wp-includes/class-wp-locale.php:156 wp-includes/class-wp-locale.php:184
+msgid "January"
+msgstr "januar"
+
+#. translators: month name
+#: wp-includes/class-wp-locale.php:162 wp-includes/class-wp-locale.php:190
+msgid "July"
+msgstr "juli"
+
+#. translators: month name
+#: wp-includes/class-wp-locale.php:161 wp-includes/class-wp-locale.php:189
+msgid "June"
+msgstr "juni"
+
+#. translators: three-letter abbreviation of the weekday
+#: wp-includes/class-wp-locale.php:152
+msgid "Fri"
+msgstr "fre"
+
+#. translators: weekday
+#: wp-includes/class-wp-locale.php:134 wp-includes/class-wp-locale.php:143
+#: wp-includes/class-wp-locale.php:152
+msgid "Friday"
+msgstr "fredag"
+
+#. translators: month name
+#: wp-includes/class-wp-locale.php:157 wp-includes/class-wp-locale.php:185
+msgid "February"
+msgstr "februar"
+
+#. translators: month name
+#: wp-includes/class-wp-locale.php:167 wp-includes/class-wp-locale.php:195
+msgid "December"
+msgstr "december"
+
+#. translators: month name
+#: wp-includes/class-wp-locale.php:159 wp-includes/class-wp-locale.php:187
+msgid "April"
+msgstr "april"
+
+#. translators: month name
+#: wp-includes/class-wp-locale.php:163 wp-includes/class-wp-locale.php:191
+msgid "August"
+msgstr "august"
 
 #: wp-includes/taxonomy.php:512
 msgid "Edit Category"
@@ -11388,7 +11388,7 @@ msgid "Strength indicator"
 msgstr "Styrkeindikator"
 
 #: wp-includes/admin-bar.php:830 wp-includes/class-wp-customize-widgets.php:412
-#: wp-includes/functions.php:3714
+#: wp-includes/functions.php:3715
 msgid "Widgets"
 msgstr "Widgets"
 
@@ -12017,7 +12017,7 @@ msgstr "Forhåndsvis"
 msgid "Search Results for &#8220;%s&#8221;"
 msgstr "Søgeresultater for &#8220;%s&#8221;"
 
-#: wp-includes/deprecated.php:3130 wp-includes/functions.php:2606
+#: wp-includes/deprecated.php:3130 wp-includes/functions.php:2607
 msgid "Are you sure you want to do this?"
 msgstr "Er du sikker på, at du vil gøre dette?"
 

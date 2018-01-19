@@ -35,56 +35,32 @@ class MyCustomWidgetInterkassa extends \WP_Widget
 		$pins = json_decode( $request['body'], true );
 			
 		if( !empty( $pins['data'] ) ) {
-<<<<<<< HEAD
-			echo "<div style='padding: 15px 5px; margin: 10px;'><pre style='background-color: #252525; border-color: #5B4B54;'><b>";
+			echo "<div style='padding: 15px 5px; margin: 20px;'><pre style='background-color: #252525; border-color: #5B4B54;'><b>";
 			echo "<h1 style='color: #679ED2;'>Интеркасса (API)</h1><b>";
 			echo "<h2 align='center' style='color: #FFD48E;'>Доллар</h2><pre align='center' style='background-color: #1B1B1B; color: #A4B29B; border-color: #679ED2; '>";
 			echo "покупка  $ 1 | " . round ( $pins['data']['USD']['UAH']['in'] , 2 ) . " грн<br />";
 			echo "продажа  $ 1 | " . round ( $pins['data']['USD']['UAH']['out'] , 2 ) . " грн</pre>";
 			
 			echo "<h2 align='center' style='color: #FFD48E;'>Евро</h2><pre align='center' style='background-color: #1B1B1B; color: #A4B29B; border-color: #679ED2; '>" ;
-=======
-			echo "<div style='padding: 100px 10px; margin: 10px;'><pre style='background-color: #252525; border-color: #5B4B54;'><b>";
-			echo "<h1 style='color: #679ED2;'>Интеркасса (API)</h1><b>";
-			echo "<h2 align='center' style='color: #00FA9A;'>Доллар</h2><pre align='center' style='background-color: #1B1B1B; color: #A4B29B; border-color: #679ED2; '>";
-			echo "покупка  $ 1 | " . round ( $pins['data']['USD']['UAH']['in'] , 2 ) . " грн<br />";
-			echo "продажа  $ 1 | " . round ( $pins['data']['USD']['UAH']['out'] , 2 ) . " грн</pre>";
-			
-			echo "<h2 align='center' style='color: #00FA9A;'>Евро</h2><pre align='center' style='background-color: #1B1B1B; color: #A4B29B; border-color: #679ED2; '>" ;
->>>>>>> aae5663cf8f13adaed83fbdad5e69700833b63cb
 			echo "покупка  € 1 | " . round ( $pins['data']['EUR']['UAH']['in'] , 2 ) . " грн<br />";
 			echo "продажа  € 1 | " . round ( $pins['data']['EUR']['UAH']['out'] , 2 ) . " грн<br />";
 			echo '</b></pre><br />';
 			
 			echo '<form id="payment" name="payment" method="post" action="https://sci.interkassa.com/" enctype="utf-8">';
-<<<<<<< HEAD
-			
-			echo '<table style="margin: 0 auto; border-style: dotted; border-color: #252525;"><row><td style="border-style: dotted;">';
-			//echo '<div align="center" valign="center">';
-			echo '</b><input style="background-color: #E6E6FA; padding: 4px; width: 65px; text-align: center; border-color: #252525;" name="ik_am" value="1000" /></td>';
-			
-			echo '<td style="border-style: dotted;"><select name="ik_cur" style="padding: 5px; width: 60px; text-align: center; background-color: #E6E6FA; border-color: #252525;"><option>UAH</option><option>USD</option><option>EUR</option></select></td>';			
-			echo '<td style="border-style: dotted;"><b><input type="submit" value="Провести" style="padding: 4px; background-color: #E6E6FA; border-color: #252525;"/></b></td></row></table>';
 			
 			echo '<input type="hidden" name="ik_co_id" value="5a43a6b93d1eaf97018b4567" />';
 			echo '<input type="hidden" name="ik_pm_no" value="ID_4266" />';
 			echo '<input type="hidden" name="ik_desc" value="виртуальная оплата в интеркассу" />';
 			echo '<input type="hidden" name="ik_cur2" value="UAH" />';	
-			echo '<br /></form>';
-=======
-			echo '<input type="hidden" name="ik_co_id" value="5a43a6b93d1eaf97018b4567" />';
-			echo '<input type="hidden" name="ik_pm_no" value="ID_4266" />';
 			
-			echo '<div align="center" valign="center">';
-			echo '</b><input style="background-color: #E6E6FA; padding: 5px; width: 65px; border-style: none; text-align: center;" name="ik_am" value="1000" />';
-			echo '<select name="ik_cur" style="padding: 5px; width: 65px; text-align: center; border-color:#679ED2; background-color: #E6E6FA;"><option>UAH</option><option>USD</option><option>EUR</option></select>';
+			echo '<table style="text-align:center; border-style: dotted; border-color: #252525;"><row><td style="border-style: dotted;">';
+			//echo '<div align="center" valign="center">';
+			echo '<input style="background-color: #E6E6FA; padding: 4px; width: 65px; text-align: center; border-color: #252525;" name="ik_am" value="1000" /></td>';
 			
-			echo '<input type="hidden" style="width: 38px; text-align: center; border-color:#679ED2;" name="ik_cur2" value="UAH" />';			
-			echo '<input type="hidden" name="ik_desc" value="виртуальная оплата в интеркассу" />';
+			echo '<td style="border-style: dotted;"><select name="ik_cur" style="padding: 5px; width: 60px; text-align: center; background-color: #E6E6FA; border-color: #252525;"><option>UAH</option><option>USD</option><option>EUR</option></select></td>';
+			echo '<td style="border-style: dotted;"><b><input type="submit" value="Провести" style="padding: 4px; background-color: #E6E6FA; border-color: #252525;"/></td></row></table>';
 			
-			echo '<b><input type="submit" value="Провести оплату" style="padding: 5px; background-color: #E6E6FA; border-color:#679ED2;"/></b>';
-			echo '</div></pre></form>';
->>>>>>> aae5663cf8f13adaed83fbdad5e69700833b63cb
+			echo '<br /></form></div>';
 			
 			
 
